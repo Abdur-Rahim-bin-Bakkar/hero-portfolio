@@ -102,3 +102,50 @@ header nav ul li  button, .btn{
     max-width: 584px;
     vertical-align: middle;
 }
+
+
+
+/* about section */
+ 
+.about-main{
+   max-width: 1600px;
+   padding-top: 130px;
+   text-align: center;
+
+}
+.about-main  .about-content{
+    max-width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 131px 157px;
+}
+.about-heading{
+    min-width: 827px;
+}
+.about-main .about-content h1{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-main .about-content .about-heading .pf{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-foot{
+    display: flex;
+    justify-content: space-around;
+}
+.about-foot p{
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-foot b{
+    color: #131313;
+}
