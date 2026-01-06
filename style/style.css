@@ -12,7 +12,7 @@ body {
 header{
 
     background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 
@@ -79,7 +79,14 @@ header nav ul li  button, .btn{
 .hero-section .content{
     max-width: 585px;
 }
-
+.hero-section .btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero-section .btns button{
+    padding: 0 10px;
+}
 .hero-section h2{
     font-size: 45px;
     color: #474747;
