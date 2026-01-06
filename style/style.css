@@ -10,7 +10,10 @@ body {
 }
 
 header{
-    background-color: #FFF8F3;
+
+    background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 
 }
@@ -58,4 +61,44 @@ header nav ul li  button, .btn{
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
+}
+
+/* hero-section start */
+
+
+.hero-section{
+    max-width: 1332px;
+    height: 676px;
+    margin: 47px 30px 0px 230px;
+    /* border: #d73232 solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section .content{
+    max-width: 585px;
+}
+
+.hero-section h2{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.hero-section h1{
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.hero-section .images img{
+    max-width: 584px;
+    vertical-align: middle;
 }
