@@ -287,3 +287,81 @@ header nav ul li  button, .btn{
 
     
 }
+
+footer{
+    padding:130px 0;
+    background-color:#FFF8F3 ;
+}
+footer .footer-contener{
+    max-width: 1140px;
+    width: 71%;
+    display: flex;
+    gap:170px ;
+    margin: 0 auto;
+
+}
+.contect h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.contect p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #474747;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.icons{
+    display: flex;
+    gap:24px ;
+}
+
+.formsec h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+
+}
+.formsec input{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #757575;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    display: block;
+    padding-left: 20px;
+
+}
+.formsec textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #757575;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    padding: 20px;
+
+
+}
+.formsec input[type='submit']{
+        background-color: #FD6E0A;
+    width: 150px;
+    height: 65px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 5px;
+
+}
