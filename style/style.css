@@ -149,3 +149,141 @@ header nav ul li  button, .btn{
 .about-foot b{
     color: #131313;
 }
+.skile-sectionn{
+    max-width: 1600px;
+    padding-top: 130px;
+}
+.skile-sectionn .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.skile-sectionn .container  h1{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.skil-heder{
+    max-width: 827px;
+    margin: 0 auto;
+}
+.skile-sectionn .container p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+
+
+}
+.card-boxs{
+    display: flex;
+    gap: 24px;
+}
+/* .card{
+    max-width: 267px;
+    height: 377px;
+    background-color: #FFFFFF;
+    text-align: start;
+    border-radius: 5px;
+    padding: 30px;
+
+    border: 1px solid red;
+} */
+
+.card{
+    width: 267px;
+    height: 377px;
+    text-align: start;
+    padding:30px;
+    box-shadow: 0 6px  50px 0 #00000030;
+    border-radius: 5px;
+    
+}
+.card img{
+    margin-bottom: 30px;
+}
+.card h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 16px;
+    color: #757575;
+}
+
+
+
+.resume{
+    padding-top:130px ;
+}
+.resume .resume-conteiner{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 71%;
+    padding-bottom:113px ;
+
+}
+.resume .resume-conteiner .resumeh1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    /* padding-bottom: 113px; */
+
+}
+.edu-exp{
+    padding-top: 113px;
+    display: flex;
+    gap: 20px;
+}
+.edu-hed{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.deucard{
+    max-width: 511px;
+    margin-right: 46px;
+}
+.deucard .cardhed{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.cardp1{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.cardp2{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume hr{
+    margin-bottom: 30px;
+    color: #D1D1D1;
+   
+}
+.btn1{
+    text-decoration: none;
+    background-color: #FD6E0A;
+    width: 200px;
+    height: 65px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 45% ;
+
+    
+}
